@@ -12,6 +12,6 @@ export const personalData = {
   twitter: '',
   stackOverflow: '',
   leetcode: "",
-  devUsername: "",
+  devUsername: "nosucode",
   resume: ""
 }
