@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Noellie SUOS",
-  profile: '../../public/PFP.jpg',
+  profile: '/PFP.jpg',
   designation: "développeuse junior",
   description: "Je suis une étudiante en développement. Curieuse et investie dans le monde de la programmation, je cherche à developper des compétences en UX design. ",
   email: 'placeholdermail@mail.fr',
