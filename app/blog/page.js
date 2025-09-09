@@ -31,7 +31,7 @@ async function page() {
 
    <div className="order-2 lg:order-1">
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
-            L'influence des algorithmes et leur tendances
+            L&apos;influence des algorithmes et leur tendances
           </p>
     </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
