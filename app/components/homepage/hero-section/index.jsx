@@ -24,7 +24,7 @@ function HeroSection() {
             Bonjour, <br />
             Je suis {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , je suis une `}
+            {` une `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
              .
           </h1>
@@ -49,15 +49,15 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        <div className="order-1 lg:order-2 from-[#fbf7f3] border-[#cde8d1] relative rounded-lg border bg-gradient-to-r to-[#fbf7f3]">
           <div className="flex flex-row">
-            <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
+            <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-200 to-green-200"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
           </div>
           <div className="px-4 lg:px-8 py-5">
             <div className="flex flex-row space-x-2">
-              <div className="h-3 w-3 rounded-full bg-red-400"></div>
-              <div className="h-3 w-3 rounded-full bg-orange-400"></div>
+              <div className="h-3 w-3 rounded-full bg-green-400"></div>
+              <div className="h-3 w-3 rounded-full bg-green-300"></div>
               <div className="h-3 w-3 rounded-full bg-green-200"></div>
             </div>
           </div>
@@ -65,48 +65,52 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">info</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Noellie SUOS</span>
+                <span className="text-violet-300">Noellie SUOS</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className=" text-white">skills-in-training:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Python</span>
+                <span className="text-violet-400">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">JavaScript</span>
+                <span className="text-violet-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C#</span>
+                <span className="text-violet-300">C#</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML5</span>
+                <span className="text-violet-300">HTML5</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Git</span>
+                <span className="text-violet-300">Git</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">Curieuse:</span>
-                <span className="text-orange-400">true</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">Goal:</span>
+                <span className="text-orange-400">UI designer</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">Débrouillarde:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">Skill-whish-list:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-violet-300">Python</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-violet-300">JavaScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-violet-300">C#</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-violet-300">HTML5</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-violet-300">Git</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>          
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">Créative:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">disponible:</span>
-                <span className="text-orange-400">function</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-green-400">function</span>
+                <span className="text-orange-400"> Goal</span>
                 <span className="text-gray-400">{'() {'}</span>
               </div>
               <div>
@@ -114,7 +118,7 @@ function HeroSection() {
                 <span className="text-gray-400">{`(`}</span>
               </div> 
               <div>
-                <span className="text-orange-400">true</span>
+                <span className="text-orange-400">bts 2026</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
