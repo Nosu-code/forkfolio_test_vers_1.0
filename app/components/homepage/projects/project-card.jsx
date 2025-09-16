@@ -29,14 +29,20 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{'{'}</span>
           </div>
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">contexte:</span>
             <span className="text-gray-400">{`'`}</span>
-            <span className="text-amber-300">{project.name}</span>
+            <span className="text-amber-300">{project.contexte}</span>
             <span className="text-gray-400">{`',`}</span>
           </div>
-
+          
+          <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">besoin:</span>
+            <span className="text-orange-400">{project.besoin}</span>
+            <span className="text-gray-400">,</span>
+          </div>
+          
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
+            <span className=" text-white">Environnement:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
@@ -51,16 +57,19 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
-            <span className="text-gray-400">,</span>
-          </div>
+          
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
+            <span className="text-white">Réalisation :</span>
+            <span className="text-cyan-400">{' ' + project.realisation}</span>
             <span className="text-gray-400">,</span>
           </div>
+
+           <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Bilan :</span>
+            <span className="text-cyan-300">{' ' + project.bilan}</span>
+            <span className="text-gray-400">,</span>
+          </div>
+          
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
