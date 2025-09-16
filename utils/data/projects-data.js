@@ -1,16 +1,16 @@
 export const projectsData = [
     {
-        id: 1,
-        name: 'Siteweb',
-        description: " Création d'un siteweb en HTML. Initiation au CSS et au JS et au Framework tel que Bootstrap",
-        tools: ['HTML','CSS','JS','Bootstrap'],
-        role: '',
+       id: 2,
+        name: 'GLPI L&aposA',
+        description: " Création d'une application de gestion de stock de bibliothèque. Création d'une interface graphique et de base de donnée pour gérer l'emprunt, le retour et les stocks des livres.",
+        tools: ['Windowform','C#'],
+        role: 'Developpeuse',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Application bibliothèque',
+        name: 'GLPI',
         description: " Création d'une application de gestion de stock de bibliothèque. Création d'une interface graphique et de base de donnée pour gérer l'emprunt, le retour et les stocks des livres.",
         tools: ['Windowform','C#'],
         role: 'Developpeuse',
@@ -50,4 +50,15 @@ export const projectsData = [
 //     role: '',
 //     code: '',
 //     demo: '',
+
+// id: 1,
+//         name: '',
+//        context: 'Siteweb',
+//        besoin: " Création d'un siteweb en HTML. Initiation au CSS et au JS et au Framework tel que Bootstrap",
+//        Env: ['HTML','CSS','JS','Bootstrap'],
+//        realisation: '',
+//        bilan: '',
+//        comp: '',     
 // },
+
+
