@@ -10,7 +10,7 @@ export const projectsData = [
        " les données récoltées pour son entrainement ainsi que leur utilisation. J’ai ensuite étudié des solutions possibles ;"+
 "nous souhaitions partir sur le même principe qu’une des IA utilisé au sein de l’organisme. "+
           "  J’ai donc entrepris des recherches pour comprendre les IA et leur utilisation et ais proposé une version de prompt.",
-        bilan: "Bien que le projet n’ait pas pu aboutir à une production fonctionnelle, celui-ci m’a permis de développer des compétences sur les nouvelles technologies, les IA génératrice. J’ai aussi acquis connaissance sur des notions importantes tel que la gestion des données, ainsi que l’optimisation des récoltes de données mais aussi les risques de cybersécurité et des enjeux juridique associés à toutes ces notions. ",
+        bilan: "Bien que le projet n’ait pas pu aboutir à une production fonctionnelle, celui-ci m’a permis de développer des compétences sur les nouvelles technologies, les IA génératrices. J’ai aussi acquis des connaissances sur des notions importantes telles que la gestion des données, ainsi que l’optimisation des récoltes de données mais aussi les risques de cybersécurité et des enjeux juridique associés à toutes ces notions. ",
     },
     {
         id: 2,
