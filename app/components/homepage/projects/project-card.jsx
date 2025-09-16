@@ -28,17 +28,19 @@ function ProjectCard({ project }) {
             <span className="mr-2 text-pink-500">=</span>
             <span className="text-gray-400">{'{'}</span>
           </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">contexte:</span>
+
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Contexte :</span>
             <span className="text-gray-400">{`'`}</span>
-            <span className="text-amber-300">{project.contexte}</span>
+            <span className="text-amber-300">{' ' + project.contexte}</span>
             <span className="text-gray-400">{`',`}</span>
           </div>
-          
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">besoin:</span>
-            <span className="text-orange-400">{project.besoin}</span>
-            <span className="text-gray-400">,</span>
+          <p><br></p>
+           <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Besoin :</span>
+            <span className="text-gray-400">{`'`}</span>
+            <span className="text-orange-300">{' ' + project.besoin}</span>
+            <span className="text-gray-400">{`',`}</span>
           </div>
           
           <div className="ml-4 lg:ml-8 mr-2">
