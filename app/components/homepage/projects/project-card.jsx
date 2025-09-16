@@ -48,6 +48,10 @@ function ProjectCard({ project }) {
           </div>
           
           <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-gray-500"> | </span>            
+          </div>
+          
+          <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">Environnement:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
@@ -65,9 +69,17 @@ function ProjectCard({ project }) {
           </div>
           
           <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-gray-500"> | </span>            
+          </div>
+          
+          <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Réalisation :</span>
             <span className="text-cyan-400">{' ' + project.realisation}</span>
             <span className="text-gray-400">,</span>
+          </div>
+
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-gray-500"> | </span>            
           </div>
 
            <div className="ml-4 lg:ml-8 mr-2">
