@@ -34,6 +34,9 @@ async function page() {
             L&apos;influence des algorithmes et leur tendances
           </p>
     </div>
+    <div>
+    <a href="https://www.lemondeinformatique.fr/actualites/lire-quand-l-ia-tue-la-productivite-98406.html">Quand les algorithmes broies le social</a>
+    </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
         {
           blogs.map((blog, i) => (
