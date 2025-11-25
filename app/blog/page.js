@@ -34,8 +34,8 @@ async function page() {
             L&apos;influence des algorithmes et leur tendances
           </p>
     </div>
-    <div className="order-3 lg:order-1">
-          <p className="font-small mb-5 text-[#ffffff] text-xl">
+    <div className="order-2 lg:order-2">
+          <p>
            Les algorithmes s’immiscent dans notre quotidienne avec l’évolution des réseaux sociaux et des sites de e-commerces ; 
   mais l’exposition à des contenus proposés par des algorithmes de plus en plus complexe a une influence sur le marché et le consommateur. 
     Cette influence affecte les tendances des nouveaux algorithmes et leur conceptions. 
