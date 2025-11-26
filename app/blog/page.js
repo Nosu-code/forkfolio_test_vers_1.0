@@ -34,11 +34,10 @@ async function page() {
             L&apos;influence des algorithmes et leur tendances
           </p>
     </div>
-    <div className="order-2 lg:order-2">
+    <div>
           <p>
-           Les algorithmes s’immiscent dans notre quotidienne avec l’évolution des réseaux sociaux et des sites de e-commerces ; 
-  mais l’exposition à des contenus proposés par des algorithmes de plus en plus complexe a une influence sur le marché et le consommateur. 
-    Cette influence affecte les tendances des nouveaux algorithmes et leur conceptions. 
+           Les algorithmes s&apos;immiscent dans notre quotidienne avec l&apos;évolution des réseaux sociaux et des sites de e-commerces ; 
+  mais l&apos;exposition à des contenus proposés par des algorithmes de plus en plus complexe a une influence sur le marché et le consommateur. Cette influence affecte les tendances des nouveaux algorithmes et leur conceptions. 
           </p>
     </div>
     <div>
