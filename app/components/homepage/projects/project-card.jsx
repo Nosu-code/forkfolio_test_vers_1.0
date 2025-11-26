@@ -80,7 +80,7 @@ function ProjectCard({ project }) {
                   <span className="text-cyan-400">{tag}</span>
                   {
                     project.realisation?.length - 1 !== i &&
-                    <span className="text-gray-400"><br></span>
+                    <p><br></p>
                   }
                 </React.Fragment>
               ))
