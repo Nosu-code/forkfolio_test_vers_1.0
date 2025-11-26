@@ -74,17 +74,7 @@ function ProjectCard({ project }) {
           
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Réalisation :</span>
-            {
-              project.realisation.map((tag, i) => (
-                <React.Fragment key={i}>
-                  <span className="text-cyan-400">{tag}</span>
-                  {
-                    project.realisation?.length - 1 !== i &&
-                    <p><br></p>
-                  }
-                </React.Fragment>
-              ))
-            }
+           <span className="text-cyan-400">{' ' + project.realisation}</span>
             <span className="text-gray-400">,</span>
           </div>
 
