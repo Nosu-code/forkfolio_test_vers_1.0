@@ -40,7 +40,11 @@ async function page() {
   mais l&apos;exposition à des contenus proposés par des algorithmes de plus en plus complexe a une influence sur le marché et le consommateur. Cette influence affecte les tendances des nouveaux algorithmes et leur conceptions. 
           </p>
     </div>
-    <div>
+    <div>   
+          <p>
+           Les algorithmes s&apos;immiscent dans notre quotidienne avec l&apos;évolution des réseaux sociaux et des sites de e-commerces ; 
+  mais l&apos;exposition à des contenus proposés par des algorithmes de plus en plus complexe a une influence sur le marché et le consommateur. Cette influence affecte les tendances des nouveaux algorithmes et leur conceptions. 
+          </p>
     <a href="https://www.lemondeinformatique.fr/actualites/lire-quand-l-ia-tue-la-productivite-98406.html">Quand les algorithmes broies le social</a>
     </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
