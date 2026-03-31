@@ -24,15 +24,27 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: "",
-         contexte: "",
-         besoin: " ",
-         tools: [''],        
-         realisation: '',
-         bilan:'',
+        name: 'Outil d’analyse de migration',
+        contexte: "Suite à une directive de l’entreprise, le site à eu un changement de logiciel de GED, les documents de l’ancien logiciel ont été migré.",
+        besoin: "Comme il y’a eu des problème de paramétrage de la migration, il fallait un outil pour analyser les erreurs et lister les modifications à réaliser. ",
+        tools: ['Python’,’Pandas’,’Tkinter'],        
+        realisation: "1. . Création de l’architecture du projet : choix d’une architecture SOLID couplé à un MVC pour le front . "+
+            "2. Réalisation de l’algorithme suite à une pré-analyse des erreurs de migrations."+
+            "3.Développement d’un interface graphique avec Tkinter.",
+        bilan:'Ce projet m’a permis de développer des compétences de traitement de données et de création de logiciel lourd. ',
+    },
+    { id: 4,
+        name: 'Locamoi',
+        contexte: "locamoi est un site de location de logement en ligne, il permet utilisateurs de se connecter à un compte et de réserver une location touristique avec le même principe que Airbnb.",
+        besoin: " Afin de s’initier aux API et de nous familiariser avec une architecture qui permet l’évolution d’un logiciel, nous avions besoin de créer un site de réservation avec une API qui renvoi des informations depuis un serveur de données. L’utilisation d’une api permet une meilleure gestion des flux et pérenniser l’entretien du site. ",
+        tools: ['ferme de serveur','PHP','HTML','JS'],        
+        realisation: "1.L’analyse par un MCD puis MLD débouche sur la création d’une base de données ."+
+            "2. Création de l’API : établir les requêtes et les appels."+
+            "3.Codage du Site web avec appel de l’API par JS.",
+        bilan:'Ce projet m’a permis de développer des connaissances sur les API et de développer un site fonctionnel en prenant en compte les demande du marché. ',
     },
     {
-         id: 4,
+         id: 5,
          name: "",
          contexte: "",
          besoin: " ",
