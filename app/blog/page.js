@@ -73,6 +73,7 @@ function page() {
         </p>
       </div>
 
+  <div> </div>
       {/* MODIFICATION: Replaced blogs.map(...) that filtered on blog?.cover_image
           (an API-specific field) with a straightforward map over our static array.
           Every entry is always rendered — no cover_image guard needed. */}
