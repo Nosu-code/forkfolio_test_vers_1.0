@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'placeholdermail@mail.fr',
-    phone: '+O6000000',
-    address: 'xxx ',
+    email: 'noellie.suos@outlook.fr',
+    phone: '+0637924522',
+    address: 'Lyon',
     github: 'https://github.com/Nosu-code',
     facebook: 'x',
     linkedIn: 'x',
