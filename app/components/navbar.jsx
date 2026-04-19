@@ -32,6 +32,10 @@ function Navbar() {
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/blog"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">VEILLE TECHNOLOGIQUE</div></Link>
           </li>          
+           <li>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/tableau_E7.pdf" target="_blank"
+                rel="noopener noreferrer" ><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">VEILLE TECHNOLOGIQUE</div></Link>
+          </li>    
         </ul>
       </div>
     </nav>
