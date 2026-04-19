@@ -41,7 +41,7 @@ function BlogCard({ blog }) {
         <div className="mt-auto pt-3">
           <Link target='_blank' href={blog.source}>
             <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
-              Voir l%aposarticle
+              Voir l'article
             </button>
           </Link>
         </div>
