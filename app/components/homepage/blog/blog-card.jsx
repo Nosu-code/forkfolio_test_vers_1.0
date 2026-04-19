@@ -28,20 +28,20 @@ function BlogCard({ blog }) {
           <p>{blog.date}</p>
         </div>
 
-        <Link target='_blank' href={blog.source}>
-          <p className='my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500'>
+        <Link target="_blank" href={blog.source}>
+          <p className="my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500">
             {blog.title}
           </p>
         </Link>
 
-        <p className='mb-2 text-sm text-[#16f2b3]'>
+        <p className="mb-2 text-sm text-[#16f2b3]">
           {blog.author}
         </p>
 
         <div className="mt-auto pt-3">
-          <Link target='_blank' href={blog.source}>
-            <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
-              Voir l'article
+          <Link target="_blank" href={blog.source}>
+            <button className="bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs">
+              Voir article
             </button>
           </Link>
         </div>
