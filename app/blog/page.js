@@ -25,6 +25,12 @@ const blogs = [
     author: "directeur de faculté MIT : Thomas H. Davenport",
   },
   {
+    title: "How cognitive manipulation and AI will shape disinformation in 2026",
+    date: "2026-12-03",
+    source: "https://www.weforum.org/stories/2026/03/how-cognitive-manipulation-and-ai-will-shape-disinformation-in-2026/",
+    author: "Alan Jagolinzer Professor of Financial Accounting",
+  },
+  {
     title: "Cognitive Assemblages: Living with Algorithms (rapport d'étude)",
     date: "2026-16-02",
     source: "https://www.mdpi.com/2504-2289/10/2/63#",
