@@ -21,14 +21,8 @@ const blogs = [
   {
     title: "Five Trends in AI and Data Science for 2026",
     date: "2026-06-01",
-    source: "https://www.forbes.com/sites/paulocarvao/2026/01/05/ai-in-2026-the-year-ai-meets-enterprise-and-politics/",
+    source: "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
     author: "directeur de faculté MIT : Thomas H. Davenport",
-  },
-  {
-    title: " 12 Graphs, AI investment is skyrocketing while AI’s impact on jobs and public perception remains mixed",
-    date: "2026-13-04",
-    source: "https://spectrum.ieee.org/state-of-ai-index-2026",
-    author: "Matthew S. Smith lead reviews editor at Digital Trends.",
   },
   {
     title: "Cognitive Assemblages: Living with Algorithms (rapport d'étude)",
