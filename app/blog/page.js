@@ -19,10 +19,10 @@ const blogs = [
     author: "Le Monde Informatique",
   },
   {
-    title: "Five Trends in AI and Data Science for 2026",
-    date: "2026-06-01",
-    source: "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
-    author: "directeur de faculté MIT : Thomas H. Davenport",
+    title: "Comment l'algorithme de X modifie les attitudes politiques",
+    date: "2026-27-02",
+    source: "https://cepr.org/voxeu/columns/comment-lalgorithme-de-x-modifie-les-attitudes-politiques",
+    author: "Germain Gauthier  Roland Hodler  Philine Widmer  Ekaterina Zhuravskaya CERP",
   },
   {
     title: "How cognitive manipulation and AI will shape disinformation in 2026",
